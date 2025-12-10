@@ -15,9 +15,8 @@ The Proof-of-Reserves solution consists of two main components:
 #### Project Setup Workflow - Admin Console
 
 1. **Basic Information**
-- Configure the public-facing URL. Projects are published under a unified domain format:'
-  por.primuslabs.xyz/...' and each project can define its own path.
-- Set notification emails to receive alerts when reserves fall below pre-set conditions.
+- Configure the public-facing URL. Projects are published under a unified domain format:'por.primuslabs.xyz/...' and each project can define its own path.
+- Set notification emails to receive alerts when reserves meet pre-set conditions.
 
 2. **On-chain Reserves**
 - After configuring verified wallet addresses and token scopes, Primus automatically retrieves and aggregates the latest balances from token contracts **at a scheduled frequency** (e.g., every 30 minutes).
@@ -36,9 +35,9 @@ The Proof-of-Reserves solution consists of two main components:
 3. **Off-chain Reserves**
 - Using a custom PoR program (combining zkTLS + zkVM), Primus securely retrieves and computes balances from off-chain sources (e.g., CEX accounts or other financial accounts) with **privacy-preserving guarantees**.
 - **Setup process**
-	- Primus develops the required zkTLS + zkVM program tailored to customer needs.
+	- Primus develops the required PoR program tailored to customer needs.
 	- The program is deployed on customer-owned servers, where private credentials (e.g., exchange read-only API keys) are configured.
-	- The Admin Console monitors the program status and displays the data source details  and verified reserve totals.
+	- The Admin Console monitors the program status and displays the data source details and verified reserve totals.
 
 4. **Supply Details (Optional)**
 - Configure token contract addresses to trace the total token supply amount for those who want to disclose the reserves backing ratio.
@@ -61,7 +60,7 @@ zkTLS produces a proof that:
 - over a trusted TLS session
 - without exposing API credentials or raw account details
 
-This off-chain data source, along with the hashed asset details, is validated by Attestor nodes in the Primus Network and then propagated to the proving layer.
+This off-chain data source, along with the hashed asset details, is validated by Attestor nodes in the Primus Network and then propagated to the blockchain (Base by default).
 
 2. **TEE-Assisted Secure Data Processing**
 
