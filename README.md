@@ -8,9 +8,9 @@ Primus enables verifiable transparency over institutional reserves through a Dat
 
 The Proof-of-Reserves solution consists of two main components:
 
-- **Admin Console** — Institutions can create projects, configure data sources and manage what to disclose publicly.
+- **Admin Console**: Institutions can create projects, configure data sources, and manage what to disclose publicly.
 
-- **Public Explorer** — A public-facing interface for transparent display of verified reserves and  proofs.
+- **Public Explorer**: A public-facing interface for transparent display of verified reserves and proofs. All details disclosed are set under the Admin Console.
 
 #### Project Setup Workflow - Admin Console
 
@@ -19,34 +19,35 @@ The Proof-of-Reserves solution consists of two main components:
   por.primuslabs.xyz/... and each project can define its own path.
 - Set notification emails to receive alerts when reserves fall below pre-set conditions.
 
-2. **Supply Details (Optional)**
-- Configure token contract addresses to trace the total token supply amount.
-- Supports aggregating supply from **multiple contracts** of the same token.
-
-3. **On-chain Reserves**
+2. **On-chain Reserves**
 - After configuring verified wallet addresses and token scopes, Primus automatically retrieves and aggregates the latest balances from token contracts **at a scheduled frequency** (e.g., every 30 minutes).
 - **Wallet verification method**
-  - add wallet addresses and complete ownership verification through a random micro-transaction challenge.
-  - once completed and confirmed the transaction, wallet ownership is verified.
+  - Add wallet addresses and complete ownership verification through a random micro-transaction challenge.
+  - Once completed and confirmed the transaction, wallet ownership is verified.
 - **Reserves Display flexibility**
   - choose which token balances to display publicly
-  - multiple wallet balances can be aggregated into a single reserve figure
+  - Multiple wallet balances can be aggregated into a single reserve figure
 - **Supported blockchains**
   - **EVM**: Ethereum, Binance Chain, Polygon, Avalanche
   - **Layer-2**: Arbitrum, Optimism, Base
   - **Solana**
 
-4. **Off-chain Reserves**
+3. **Off-chain Reserves**
 - Using custom zkTLS + zkVM programs, Primus securely retrieves and computes balances from off-chain sources (e.g., CEX accounts or other financial accounts) with **privacy-preserving guarantees**.
 - **Setup process**
   - Primus develops the required zkTLS + zkVM program tailored to customer needs.
   - The program is deployed on customer-owned servers, where private credentials (e.g., exchange read-only API keys) are configured.
   - The Admin Console monitors the program status and displays the data source details  and verified reserve totals.
 
+4. **Supply Details (Optional)**
+- Configure token contract addresses to trace the total token supply amount for those who want to disclose the reserves backing ratio.
+- Supports aggregating supply from **multiple contracts** of the same token.
+
 5. **Additional Settings**
 - Configure **price-based or percentage-based** alert thresholds: Email notifications will be triggered when reserves fall below defined conditions.
 - Users may choose to publicly disclose **only on-chain or only off-chain** reserves if needed.
 
+## Technical Overview
 
-## Code Example
+
 
