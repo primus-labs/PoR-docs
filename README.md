@@ -15,8 +15,8 @@ The Proof-of-Reserves solution consists of two main components:
 #### Project Setup Workflow - Admin Console
 
 1. **Basic Information**
-- Configure the public-facing URL. Projects are published under a unified domain format:
-  por.primuslabs.xyz/... and each project can define its own path.
+- Configure the public-facing URL. Projects are published under a unified domain format:'
+  por.primuslabs.xyz/...' and each project can define its own path.
 - Set notification emails to receive alerts when reserves fall below pre-set conditions.
 
 2. **On-chain Reserves**
