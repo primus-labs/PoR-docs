@@ -66,20 +66,16 @@ This off-chain data source, along with the hashed asset details, is validated by
 2. **TEE-Assisted Secure Data Processing**
 
 The retrieved off-chain data is additionally processed inside a Trusted Execution Environment (TEE), ensuring:
-
-	•	data confidentiality throughout computation
-	
-	•	secure communication to the decentralized proving network
+- data confidentiality throughout computation
+- secure communication to the decentralized proving network
 
 The TEE establishes a secure channel to the verifiable computation backend.
 
 3. **zkVM for Verifiable Aggregation of Reserves**
 
 Through the TEE, the committed data is sent to a zkVM network (e.g., powered by Succinct or other partners), where the PoR program performs:
-
-	•	grouping by token/asset type
-	
-	•	aggregation of balances into a unified reserve value, which could be disclosed to the public
+- grouping by token/asset type
+- aggregation of balances into a unified reserve value, which could be disclosed to the public
 
 A zero-knowledge proof is then generated to confirm that the publicly disclosed reserve value is correctly computed from authentic, privately held balances — without revealing any sensitive account-level data.
 
