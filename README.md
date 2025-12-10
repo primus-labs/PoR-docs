@@ -56,11 +56,8 @@ Primus enables off-chain reserve verification with end-to-end cryptographic guar
 Institutions deploy a custom PoR program in their own environment, where zkTLS is used to retrieve real-time asset balances from off-chain sources such as CEXs.
 
 zkTLS produces a proof that:
-
 	•	the data is fetched from the legitimate API endpoint
-	
 	•	over a trusted TLS session
-	
 	•	without exposing API credentials or raw account details
 
 This off-chain data source, along with the hashed asset details, is validated by Attestor nodes in the Primus Network and then propagated to the proving layer.
