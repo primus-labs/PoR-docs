@@ -83,15 +83,9 @@ A zero-knowledge proof is then generated to confirm that the publicly disclosed 
 
 Below are code samples covering the three major components involved in an off-chain Proof-of-Reserves integration:
 
-1. Custom PoR Program (deployed in the client’s environment)
-
-[https://github.com/primus-labs/dvc-client](https://github.com/primus-labs/dvc-client)
+1. Custom PoR Program (deployed in the client’s environment): [https://github.com/primus-labs/dvc-client](https://github.com/primus-labs/dvc-client)
   
-2. Primus Services
+2. Primus DVC Service: [https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
 
-[https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
-
-3. zkVM Execution Program
-
-[https://github.com/primus-labs/DVC-Succinct](https://github.com/primus-labs/DVC-Succinct)
+3. zkVM Execution Program: [https://github.com/primus-labs/DVC-Succinct](https://github.com/primus-labs/DVC-Succinct)
 
