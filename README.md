@@ -22,22 +22,23 @@ The Proof-of-Reserves solution consists of two main components:
 2. **On-chain Reserves**
 - After configuring verified wallet addresses and token scopes, Primus automatically retrieves and aggregates the latest balances from token contracts **at a scheduled frequency** (e.g., every 30 minutes).
 - **Wallet verification method**
-	•	add wallet addresses and complete ownership verification through a random micro-transaction challenge.
-	•	once completed and confirmed the transaction, wallet ownership is verified.
+  	- add wallet addresses and complete ownership verification through a random micro-transaction challenge.
+	- once completed and confirmed the transaction, wallet ownership is verified.
 - **Reserves Display flexibility**
-	•	choose which token balances to display publicly
-	•	multiple wallet balances can be aggregated into a single reserve figure
+	- choose which token balances to display publicly
+	- multiple wallet balances can be aggregated into a single reserve figure
 - **Supported blockchains**
-	•	**EVM**: Ethereum, Binance Chain, Polygon, Avalanche
-	•	**Layer-2**: Arbitrum, Optimism, Base
-	•	**Solana**
+	- **EVM**: Ethereum, Binance Chain, Polygon, Avalanche
+	- **Layer-2**: Arbitrum, Optimism, Base
+	- **Solana**
+
 
 3. **Off-chain Reserves**
 - Using a custom PoR program (combining zkTLS + zkVM), Primus securely retrieves and computes balances from off-chain sources (e.g., CEX accounts or other financial accounts) with **privacy-preserving guarantees**.
 - **Setup process**
-	•	Primus develops the required zkTLS + zkVM program tailored to customer needs.
-	•	The program is deployed on customer-owned servers, where private credentials (e.g., exchange read-only API keys) are configured.
-	•	The Admin Console monitors the program status and displays the data source details  and verified reserve totals.
+	- Primus develops the required zkTLS + zkVM program tailored to customer needs.
+	- The program is deployed on customer-owned servers, where private credentials (e.g., exchange read-only API keys) are configured.
+	- The Admin Console monitors the program status and displays the data source details  and verified reserve totals.
 
 4. **Supply Details (Optional)**
 - Configure token contract addresses to trace the total token supply amount for those who want to disclose the reserves backing ratio.
