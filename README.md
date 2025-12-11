@@ -39,9 +39,9 @@ Define your organization identity and configure a showcase URL under the unified
 
 In this step, you can add the on-chain and off-chain assets you want to include in your Proof-of-Reserves.
 
-**For on-chain reserves**, you can manage wallet address and token disclosure scopes. Each wallet requires a one-time micro-transaction challenge to verify ownership. 
+For on-chain reserves, you can manage wallet addresses and token disclosure scopes. Each wallet requires a one-time micro-transaction challenge to verify ownership. 
 
-**For off-chain reserves**, Primus will provide a customized PoR program based on your data requirements.
+For off-chain reserves, Primus will provide a customized PoR program based on your data requirements.
 
 You can also optionally configure supply details if you wish to show the reserve-backing ratio, and define alert thresholds to receive email notifications when reserves fall below your desired conditions.
 
