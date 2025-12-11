@@ -65,7 +65,7 @@ You can subscribe directly in the Admin Console or contact our team for assistan
 
 Primus enables off-chain reserve verification with end-to-end cryptographic guarantees by combining zkTLS, TEE, and zkVM-based verifiable computation on a decentralized proving network.
 
-1. **zkTLS for Authenticated Data Retrieval**
+**zkTLS for Authenticated Data Retrieval**
 
 Institutions deploy a custom PoR program in their own environment, where zkTLS is used to retrieve real-time asset balances from off-chain sources such as CEXs.
 
@@ -76,7 +76,7 @@ zkTLS produces a proof that:
 
 This off-chain data source, along with the hashed asset details, is validated by Attestor nodes in the Primus Network and then propagated to the blockchain (Base by default).
 
-2. **TEE-Assisted Secure Data Processing**
+**TEE-Assisted Secure Data Processing**
 
 The retrieved off-chain data is additionally processed inside a Trusted Execution Environment (TEE), ensuring:
 - data confidentiality throughout computation
@@ -84,7 +84,7 @@ The retrieved off-chain data is additionally processed inside a Trusted Executio
 
 The TEE establishes a secure channel to the verifiable computation backend.
 
-3. **zkVM for Verifiable Aggregation of Reserves**
+**zkVM for Verifiable Aggregation of Reserves**
 
 Through the TEE, the committed data is sent to a zkVM network (e.g., powered by Succinct or other partners), where the PoR program performs:
 - grouping by token/asset type
@@ -102,5 +102,5 @@ Below are code samples covering the three major components involved in an off-ch
   
 2. Primus DVC Service: [https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
 
-3. zkVM Execution Program: [https://github.com/primus-labs/DVC-Succinct](https://github.com/primus-labs/DVC-Succinct)
+3. zkVM Program: [https://github.com/primus-labs/DVC-Succinct](https://github.com/primus-labs/DVC-Succinct)
 
