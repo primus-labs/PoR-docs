@@ -66,12 +66,15 @@ You can subscribe directly in the Admin Console or contact our team for assistan
 Primus enables privacy-preserving verification of off-chain reserves by combining zkTLS, TEE, and zkVM-based verifiable computation on a decentralized proving network.
 
 **zkTLS for Authentic Off-Chain Data**
+
 A custom PoR program runs in your own environment, using zkTLS to retrieve real-time balances from sources such as CEX accounts. zkTLS proves the data comes from the legitimate API endpoint over a trusted TLS session—without exposing API keys or raw account details.
 
 **TEE for Secure Data Handling**
+
 Retrieved data is processed inside a Trusted Execution Environment (TEE), ensuring confidentiality during computation and establishing a secure channel to the proving network.
 
 **zkVM for Verifiable Aggregation**
+
 Through the TEE, committed data is sent to a zkVM network for aggregation and final computation. A zero-knowledge proof guarantees that the disclosed reserve value is correctly derived from authentic balances, while all sensitive information remains private.
 
 
@@ -80,9 +83,9 @@ Through the TEE, committed data is sent to a zkVM network for aggregation and fi
 
 Below are code samples covering the three major components involved in an off-chain Proof-of-Reserves integration:
 
-1. Custom PoR Program (deployed in the client’s environment): [https://github.com/primus-labs/dvc-client](https://github.com/primus-labs/dvc-client)
+1. Custom PoR Program (deployed in your environment): [https://github.com/primus-labs/dvc-client](https://github.com/primus-labs/dvc-client)
   
-2. Primus DVC Service: [https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
+2. Primus DVC Service (the server side): [https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
 
 3. zkVM Program: [https://github.com/primus-labs/DVC-Succinct](https://github.com/primus-labs/DVC-Succinct)
 
