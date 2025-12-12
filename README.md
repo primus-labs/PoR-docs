@@ -33,7 +33,7 @@ Primus handles all the technical complexity behind the PoR product. With a singl
 Primus manages the entire pipeline, including API integrations, cryptographic verification, secure computation, node infrastructure, and ongoing operational overhead. This dramatically reduces engineering workload, compliance coordination, long-term maintenance, and external vendor expenses for institutions.
 
 
-## Start Using Primus PoR
+## Key Workflows
 
 Here is the workflow for creating and publishing your Proof-of-Reserves:
 
