@@ -67,7 +67,7 @@ You can subscribe directly in the Admin Console or contact our team for assistan
 
 
 
-## Technical Highlights
+## Technical Overview
 
 Primus enables privacy-preserving verification of off-chain reserves by combining zkTLS, TEE, and zkVM-based verifiable computation on a decentralized proving network.
 
