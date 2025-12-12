@@ -18,7 +18,7 @@ Institutions can securely aggregate and verify both on-chain and off-chain reser
 
 
 
-## Highlights
+## Product Highlights
 
 **1. Easy to use and integrate**
 
