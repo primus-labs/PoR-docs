@@ -4,7 +4,9 @@
 
 Primus enables verifiable transparency over institutional reserves through a Data Verification and Computation (DVC) architecture. By combining **zkTLS** for authenticated off-chain data retrieval with **zkVM/TEE** for verifiable computation, Primus delivers a mature, ready-to-use **Proof-of-Reserves** (PoR) solution. 
 
-Institutions can securely aggregate and verify both on-chain and off-chain reserves, and continuously present their real-time financial positions with cryptographic certainty.
+Institutions can securely aggregate and verify both on-chain and off-chain reserves, and continuously present their real-time financial positions with cryptographic certainty. 
+
+**Integration can be completed in under a week, with no upfront fees and no additional operational costs beyond the subscription.**
 
 
 ## What PoR Solution Solves
@@ -33,7 +35,7 @@ Primus handles all the technical complexity behind the PoR product. With a singl
 Primus manages the entire pipeline, including API integrations, cryptographic verification, secure computation, node infrastructure, and ongoing operational overhead. This dramatically reduces engineering workload, compliance coordination, long-term maintenance, and external vendor expenses for institutions.
 
 
-## Key Workflows
+## Workflow
 
 Here is the workflow for creating and publishing your Proof-of-Reserves:
 
