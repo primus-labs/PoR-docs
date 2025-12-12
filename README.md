@@ -26,7 +26,11 @@ Institutions can securely aggregate and verify both on-chain and off-chain reser
 
 Primus provides a user-friendly **PoR Admin Console** that allows institutions to configure both on-chain and off-chain assets, define disclosure preferences, and determine exactly what information becomes publicly visible.
 
+[dashboard](./images/dashboard.png)
+
 Each institution receives a dedicated **public Explorer page**, automatically generated based on your configuration. This page offers users, auditors, and partners a transparent, continuously updated view of your verified reserves.
+
+[frontend](./images/frontend.png)
 
 **2. One Integration, Zero Maintenance**
 
