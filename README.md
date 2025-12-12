@@ -2,7 +2,7 @@
 
 ## Overview
 
-Primus enables verifiable transparency over institutional reserves through a Data Verification and Computation (DVC) architecture. By combining **zkTLS** for authenticated off-chain data retrieval with **zkVM/TEE** for verifiable computation, Primus delivers a mature, ready-to-use **Proof-of-Reserves** (PoR) solution. 
+Primus enables verifiable transparency over institutional reserves through a **Data Verification and Computation** (DVC) architecture. By combining **zkTLS** for authenticated off-chain data retrieval with **zkVM/TEE** for verifiable computation, Primus delivers a mature, ready-to-use **Proof-of-Reserves** (PoR) solution. 
 
 Institutions can securely aggregate and verify both on-chain and off-chain reserves, and continuously present their real-time financial positions with cryptographic certainty. 
 
