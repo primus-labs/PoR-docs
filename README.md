@@ -43,7 +43,7 @@ A single integration grants access to all supported on-chain networks, off-chain
 
 **Step1. Create a project in the Admin Console**
 
-Define your organization identity and configure a showcase URL under the unified domain format 'por.primuslabs.xyz/....'. Each project can specify its own unique path.
+Define your organization's identity and configure a showcase URL under the unified domain format 'por.primuslabs.xyz/....'. Each project can specify its own unique path.
 
 **Step 2. Configure your reserve sources and disclose preferences**
 
