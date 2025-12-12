@@ -40,7 +40,7 @@ Each institution receives a dedicated **public Explorer page**, automatically ge
 
 Primus abstracts away all external integrations and ongoing operational work.
 
-A single integration grants access to all supported on-chain networks, off-chain data sources, and the full verification pipeline—including zkTLS attestation, secure computation (TEE), zkVM proving, node infrastructure, and API integrations.
+A single integration grants access to all supported on-chain networks, off-chain data sources, and the full verification pipeline, including zkTLS attestation, TEE, zkVM proving, node infrastructure, and API integrations.
 
 
 ## Workflow
@@ -99,7 +99,7 @@ Through the TEE, committed data is sent to a zkVM network for aggregation and fi
 
 ## Examples
 
-Below are code samples covering the three major components involved in an off-chain Proof-of-Reserves integration:
+Below are some code samples covering the major components involved in an off-chain Proof-of-Reserves integration:
 
 1. Framework Intro: [https://github.com/primus-labs/DVC-Intro](https://github.com/primus-labs/DVC-Intro)
 
