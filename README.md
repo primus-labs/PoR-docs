@@ -107,5 +107,5 @@ Below are some code samples covering the major components involved in an off-cha
   
 3. Primus DVC Service (the server side): [https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
 
-4. zkVM Program: [https://github.com/primus-labs/DVC-zkVM](https://github.com/primus-labs/DVC-Succinct)
+4. zkVM Program: [https://github.com/primus-labs/DVC-zkVM](https://github.com/primus-labs/DVC-zkVM)
 
