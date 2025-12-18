@@ -33,7 +33,7 @@ Primus provides a user-friendly **PoR Admin Console** that allows institutions t
 Each institution receives a dedicated **public Explorer page**, automatically generated based on your configuration. This page offers users, auditors, and partners a transparent, continuously updated view of your verified reserves.
 
 <p align="center">
-  <img src="./pics/frontend-new.png" style="width:60%;" />
+  <img src="./pics/frontend-12.18.png" style="width:60%;" />
 </p>
 
 **2. One Integration, Zero Maintenance**
@@ -107,5 +107,5 @@ Below are some code samples covering the major components involved in an off-cha
   
 3. Primus DVC Service (the server side): [https://github.com/primus-labs/dvc-server](https://github.com/primus-labs/dvc-server)
 
-4. zkVM Program: [https://github.com/primus-labs/DVC-Succinct](https://github.com/primus-labs/DVC-Succinct)
+4. zkVM Program: [https://github.com/primus-labs/DVC](https://github.com/primus-labs/DVC-Succinct)
 
