@@ -59,10 +59,10 @@ In this step, you can add the on-chain and off-chain assets you want to include 
 
 **For on-chain reserves**, you can manage wallet addresses and token disclosure scopes. Each wallet requires a one-time micro-transaction challenge to verify ownership. 
 
-**For off-chain reserves**, Primus provides a customized PoR program tailored to your specific data requirements. 
+**For off-chain reserves**, Primus provides a customized client program tailored to your specific data requirements. 
 
 - If you only need to verify off-chain reserves, please complete this [Requirements Form](https://forms.gle/KuhBLsJKnULWmxg19 ). Our team will then design a customized program and guide you through all the configuration steps via the PoR Admin Console.
-- You may also refer to the [PoR Client Program Demo](https://github.com/primus-labs/por-client-demo) for detailed examples of how a customized PoR program is set up and how it operates.
+- You may also refer to the [PoR Client Program](https://github.com/primus-labs/por-demo/tree/main/client) for detailed examples of how a customized client program is set up on your side and how it operates.
 
 You can also optionally configure supply details if you wish to show the reserve-backing ratio, and define alert thresholds to receive email notifications when reserves fall below your desired conditions.
 
@@ -110,7 +110,7 @@ Below are some code samples covering the major components involved in an off-cha
 
 1. Framework Intro: [https://github.com/primus-labs/DVC-Intro](https://github.com/primus-labs/DVC-Intro)
 
-2. Custom PoR Program (deployed in your environment): [https://github.com/primus-labs/por-client-demo/tree/main/client](https://github.com/primus-labs/por-client-demo/tree/main/client)
+2. Custom Client Program (deployed in your environment): [https://github.com/primus-labs/por-client-demo/tree/main/client](https://github.com/primus-labs/por-client-demo/tree/main/client)
   
-3. zkVM Program: [https://github.com/primus-labs/por-client-demo/tree/main/program](https://github.com/primus-labs/por-client-demo/tree/main/program)
+3. zkVM Program: [https://github.com/primus-labs/por-demo/tree/main/zkvm-program](https://github.com/primus-labs/por-demo/tree/main/zkvm-program)
 
