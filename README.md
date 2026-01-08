@@ -62,7 +62,7 @@ In this step, you can add the on-chain and off-chain assets you want to include 
 **For off-chain reserves**, Primus provides a customized PoR program tailored to your specific data requirements. 
 
 - If you only need to verify off-chain reserves, please complete this [Requirements Form](https://forms.gle/KuhBLsJKnULWmxg19 ). Our team will then design a customized program and guide you through all the configuration steps via the PoR Admin Console.
-- You may also refer to the [PoR Demo](https://github.com/primus-labs/por-demo/tree/main/client) for detailed examples of how a customized PoR program is set up and how it operates.
+- You may also refer to the [PoR Demo](https://github.com/primus-labs/por-demo/tree/main) for detailed examples of how a customized PoR program is set up and how it operates.
 
 You can also optionally configure supply details if you wish to show the reserve-backing ratio, and define alert thresholds to receive email notifications when reserves fall below your desired conditions.
 
