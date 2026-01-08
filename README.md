@@ -110,7 +110,7 @@ Below are some code samples covering the major components involved in an off-cha
 
 1. Framework Intro: [https://github.com/primus-labs/DVC-Intro](https://github.com/primus-labs/DVC-Intro)
 
-2. Custom Client Program (deployed in your environment): [https://github.com/primus-labs/por-client-demo/tree/main/client](https://github.com/primus-labs/por-client-demo/tree/main/client)
+2. Client (deployed in your environment): [https://github.com/primus-labs/por-client-demo/tree/main/client](https://github.com/primus-labs/por-client-demo/tree/main/client)
   
 3. zkVM Program: [https://github.com/primus-labs/por-demo/tree/main/zkvm-program](https://github.com/primus-labs/por-demo/tree/main/zkvm-program)
 
