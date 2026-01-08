@@ -30,6 +30,10 @@ Primus provides a user-friendly **PoR Admin Console** that allows institutions t
   <img src="./pics/dashboard.png" style="width:60%;" />
 </p>
 
+<p align="center">
+  <img src="./pics/new-project.png" style="width:60%;" />
+</p>
+
 Each institution receives a dedicated **public Explorer page**, automatically generated based on your configuration. This page offers users, auditors, and partners a transparent, continuously updated view of your verified reserves.
 
 <p align="center">
