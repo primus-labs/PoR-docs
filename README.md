@@ -2,39 +2,36 @@
 
 ## Overview
 
-Primus enables verifiable transparency over institutional reserves through a **Data Verification and Computation** (DVC) architecture. By combining **zkTLS** for authenticated off-chain data retrieval with **zkVM/TEE** for verifiable computation, Primus delivers a mature, ready-to-use **Proof-of-Reserves** (PoR) solution. 
+Primus enables verifiable transparency over institutional reserves through a **Data Verification and Computation** (DVC) architecture. By combining **zkTLS** for authenticated data retrieval with **zkVM/TEE** for verifiable computation, Primus delivers a mature, ready-to-use **Proof-of-Reserves** (PoR) solution.
 
-Institutions can securely aggregate and verify both on-chain and off-chain reserves, and continuously present their real-time financial positions with cryptographic certainty. 
+Institutions can securely aggregate and verify on-chain and off-chain reserves, and continuously present their real-time financial positions with cryptographic certainty.
+
+There is no need to self-configure anything upfront. Submit the Requirements Form (see Step 1) and our team will reach out promptly to scope your use case.
 
 **Integration can be completed in under a week, with no upfront costs and no operational overhead beyond the subscription fee.**
 
-
 ## Why Proof-of-Reserves Matters
 
-| **Challenge**                                                | **Primus Solution**                                          |
+| **Challenge** | **Primus Solution** |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Lack of trust in off-chain assets or custodian balances      | zkTLS attests the authenticity and provenance of off-chain data while institutions retain full control of all private credentials. |
-| Infrequent or manual reserve disclosure                 | Automated, high-frequency PoR refreshing with customizable verification intervals. |
-| Privacy concerns when disclosing account-level balances       | zkVM enables privacy-preserving aggregation with selective disclosure. |
-| Fragmented on-chain and off-chain reserve data | Primus aggregates all sources into one consolidated, verifiable reserve total.|
-
-
+| Lack of trust in off-chain assets or custodian balances | zkTLS attests the authenticity and provenance of off-chain data while institutions retain full control of all private credentials. |
+| Infrequent or manual reserve disclosure | Automated, high-frequency PoR refreshing with customizable verification intervals. |
+| Privacy concerns when disclosing account-level balances | zkVM enables privacy-preserving aggregation with selective disclosure. |
+| Fragmented on-chain and off-chain reserve data | Primus aggregates all sources into one consolidated, verifiable reserve total. |
 
 ## Product Highlights
 
-**1. Intuitive and Simple to Operate**
+**1. Fully Managed Setup**
 
-Primus provides a user-friendly **PoR Admin Console** that allows institutions to configure both on-chain and off-chain assets, define disclosure preferences, and determine exactly what information becomes publicly visible.
+Primus handles the full PoR setup on your behalf.
 
-<p align="center">
-  <img src="./pics/dashboard.png" style="width:60%;" />
-</p>
+After understanding your requirements, our team will:
 
-<p align="center">
-  <img src="./pics/new-project.png" style="width:60%;" />
-</p>
+- Design the verification scope for your on-chain and/or off-chain reserves
+- Configure disclosure preferences and what becomes publicly visible
+- Deploy a **local PoR service** that runs in your environment
+- Publish a dedicated **public dashboard** under `por.primuslabs.xyz/...` for users, auditors, and partners
 
-Each institution receives a dedicated **public Explorer page**, automatically generated based on your configuration. This page offers users, auditors, and partners a transparent, continuously updated view of your verified reserves.
 
 <p align="center">
   <img src="./pics/frontend-12.18.png" style="width:60%;" />
@@ -46,53 +43,49 @@ Primus abstracts away all external integrations and ongoing operational work.
 
 A single integration grants access to all supported on-chain networks, off-chain data sources, and the full verification pipeline, including zkTLS attestation, TEE, zkVM proving, node infrastructure, and API integrations.
 
-
 ## Workflow
 
-**Step1. Create a project in the Admin Console**
+**Step 1. Share your requirements**
 
-Define your organization's identity and configure a showcase URL under the unified domain format 'por.primuslabs.xyz/....'. Each project can specify its own unique path.
+Complete the [Requirements Form](https://docs.google.com/forms/d/e/1FAIpQLSc9ijOzKQla4oOpSytvf4K3hjrfxAT-dGM0VUIFXAR94qn5Qw/viewform). **No matter how early your idea is, feel free to submit.** Our team will review your request and contact you promptly.
 
-**Step 2. Configure your reserve sources and disclose preferences**
+**Step 2. Primus designs and configures your PoR**
 
-In this step, you can add the on-chain and off-chain assets you want to include in your Proof-of-Reserves.
+Based on your needs, we will:
 
-**For on-chain reserves**, you can manage wallet addresses and token disclosure scopes. Each wallet requires a one-time micro-transaction challenge to verify ownership. 
+- Define your organization's identity and public showcase path under `por.primuslabs.xyz/...`
+- Set up on-chain reserve sources (including wallet ownership verification where needed)
+- Build a customized off-chain PoR program when required
+- Configure disclosure scope, optional supply details for the reserve-backing ratio, and alert thresholds
 
-**For off-chain reserves**, Primus provides a customized PoR program tailored to your specific data requirements. 
+You may also refer to the [PoR Demo](https://github.com/primus-labs/por-demo/tree/main) for examples of how a customized PoR program is structured and how it operates.
 
-- If you only need to verify off-chain reserves, please complete this [Requirements Form](https://forms.gle/KuhBLsJKnULWmxg19 ). Our team will then design a customized program and guide you through all the configuration steps via the PoR Admin Console.
-- You may also refer to the [PoR Demo](https://github.com/primus-labs/por-demo/tree/main) for detailed examples of how a customized PoR program is set up and how it operates.
+**Step 3. Receive your local service and public dashboard**
 
-You can also optionally configure supply details if you wish to show the reserve-backing ratio, and define alert thresholds to receive email notifications when reserves fall below your desired conditions.
+Once configuration is complete, Primus delivers:
 
-**Step 3. Preview the Explorer page**
+- A **local PoR service** deployed in your environment to run verification on your schedule
+- A **public dashboard** that presents your verified reserves in real time
 
-Review how your PoR will appear publicly, directly in the Admin Console.
+**Step 4. Go live**
 
-**Step 4. Publish the project**
-
-Publish the project and share the showcase URL with users, auditors, and partners.
-
-
+Share your public dashboard URL with users, auditors, and partners. Primus continues to operate and maintain the verification pipeline on your behalf.
 
 ## Pricing
 
 Primus PoR follows a simple, transparent pricing model.
 
-We provide a **7-day free publishing period**, allowing you to create and publish a PoR project at no cost. After the 7-day trial ends, continued public hosting requires a **monthly subscription**.
+We provide a **7-day free publishing period**, allowing you to launch a PoR project at no cost. After the trial ends, continued public hosting requires a **monthly subscription**.
 
-You can subscribe directly in the Admin Console or contact our team for assistance.
-
-
+Contact our team for pricing and subscription details.
 
 ## Technical Overview
 
-Primus combines zkTLS, TEE, and zkVM in a decentralized proving network to enable authentic and privacy-preserving verification of off-chain reserves.
+Primus combines zkTLS, TEE, and zkVM in a decentralized proving network to enable authentic and privacy-preserving verification of on-chain and off-chain reserves.
 
 **zkTLS for Authentic Off-Chain Data**
 
-A custom PoR program runs in your own environment, using zkTLS to retrieve real-time balances from sources such as CEX accounts. zkTLS proves the data comes from the legitimate API endpoint over a trusted TLS session—without exposing API keys or raw account details.
+A custom PoR program runs in your own environment, using zkTLS to retrieve real-time balances from sources such as CEX accounts. zkTLS proves the data comes from the legitimate API endpoint over a trusted TLS session, without exposing API keys or raw account details.
 
 **TEE for Secure Data Handling**
 
@@ -102,15 +95,12 @@ Retrieved data is processed inside a Trusted Execution Environment (TEE), ensuri
 
 Through the TEE, committed data is sent to a zkVM network for aggregation and final computation. A zero-knowledge proof guarantees that the disclosed reserve value is correctly derived from authentic balances, while all sensitive information remains private.
 
-
-
 ## Examples
 
-Below are some code samples covering the major components involved in an off-chain Proof-of-Reserves integration:
+Below are code samples covering the major components involved in a Proof-of-Reserves integration:
 
 1. Framework Intro: [https://github.com/primus-labs/DVC-Intro](https://github.com/primus-labs/DVC-Intro)
 
 2. Client (deployed in your environment): [https://github.com/primus-labs/por-client-demo/tree/main/client](https://github.com/primus-labs/por-client-demo/tree/main/client)
-  
-3. zkVM Program: [https://github.com/primus-labs/por-demo/tree/main/zkvm-program](https://github.com/primus-labs/por-demo/tree/main/zkvm-program)
 
+3. zkVM Program: [https://github.com/primus-labs/por-demo/tree/main/zkvm-program](https://github.com/primus-labs/por-demo/tree/main/zkvm-program)
